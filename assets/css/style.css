@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --color-primary: #111B47;
+    --color-secondy: #505F98;
+
+}
+body {
+    font-family: 'roboto';
+    font-weight: 400;
+    background-color:  #F0F0F0;
+}
+.container {
+  
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+
+.menu ul a {
+    text-decoration: none;
+    color: var(--color-secondy);
+    margin-right: 40px;
+}
+
+.logo {
+ 
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    color: var(--color-primary);
+ 
+}
+
+.button-nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.button-nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    Width: 160px;
+    height: 26px;
+    background-color: var(--color-primary);
+    padding: 17px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.hero-backgroud {
+    display: flex;
+    align-items: center;
+    Width: 1000px;
+    Height: 1100px;
+    background-image: url('/landie/assets/images/hero-content.svg');
+}
