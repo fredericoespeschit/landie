@@ -4,19 +4,16 @@
     box-sizing: border-box;
 }
 
-
 :root {
-    --color-primary: #111B47;
-    --color-secondy: #505F98;
-
+    --color-primary: #111b47;
+    --color-secondy: #505f98;
 }
 body {
-    font-family: 'roboto';
+    font-family: "roboto";
     font-weight: 400;
-    background-color:  #F0F0F0;
+    background-color: #f0f0f0;
 }
 .container {
-  
     display: flex;
     justify-content: space-between;
     width: 1100px;
@@ -26,7 +23,6 @@ header {
     display: flex;
     justify-content: center;
 }
-
 
 nav {
     display: flex;
@@ -38,7 +34,6 @@ nav {
     list-style: none;
 }
 
-
 .menu ul a {
     text-decoration: none;
     color: var(--color-secondy);
@@ -46,36 +41,100 @@ nav {
 }
 
 .logo {
- 
     font-size: 23px;
     display: flex;
     align-items: center;
     color: var(--color-primary);
- 
 }
 
 .button-nav {
     display: flex;
     align-items: center;
-
 }
 
 .button-nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    Width: 160px;
+    width: 160px;
     height: 26px;
     background-color: var(--color-primary);
     padding: 17px;
     text-decoration: none;
-    color: #FFF;
+    color: #fff;
 }
 
-.hero-backgroud {
+main {
     display: flex;
-    align-items: center;
-    Width: 1000px;
-    Height: 1100px;
+
+    justify-content: center;
+ 
+}
+
+.hero-content {
+
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.hero-title {
+    width: 550px;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 66px;
+    color: var(--color-primary);
+    margin-bottom: 40px;
+}
+
+.hero-body {
+    width: 550px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* body {
+   
     background-image: url('/landie/assets/images/hero-content.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right top;
+    background-attachment: scroll;
+  
+} */
+
+
+.hero-button {
+    display: flex;
+    
+    margin-top: 60px;
+}
+
+
+.hero-button-ui-kit a{
+    text-decoration: none;
+    width: 160px;
+    height: 26px;
+    background-color: var(--color-primary);
+    padding: 10px;
+    color: #FFF;
+    margin-right: 20px;
+}
+
+.hero-button-learn-more {
+    
+}
+.hero-button-learn-more a {
+    text-decoration: none;
+    width: 160px;
+    height: 26px;
+    border: 3px solid var(--color-primary);
+    padding: 8px;
+    color: var(--color-primary);
 }
