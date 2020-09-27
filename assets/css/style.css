@@ -7,11 +7,14 @@
 :root {
     --color-primary: #111b47;
     --color-secondy: #505f98;
+    --color-three:#6F7CB2;
+    --color-four: #091133;
+    --color-five: #5D6970;
 }
 body {
     font-family: "roboto";
     font-weight: 400;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
 }
 .container {
     display: flex;
@@ -68,16 +71,13 @@ main {
     display: flex;
 
     justify-content: center;
- 
 }
 
 .hero-content {
-
     height: 90vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
-   
 }
 
 .hero-title {
@@ -109,32 +109,110 @@ main {
   
 } */
 
-
 .hero-button {
     display: flex;
-    
     margin-top: 60px;
 }
 
-
-.hero-button-ui-kit a{
+.hero-button-ui-kit a {
     text-decoration: none;
-    width: 160px;
-    height: 26px;
     background-color: var(--color-primary);
     padding: 10px;
-    color: #FFF;
+    color: #fff;
     margin-right: 20px;
 }
 
-.hero-button-learn-more {
-    
-}
 .hero-button-learn-more a {
     text-decoration: none;
-    width: 160px;
-    height: 26px;
     border: 3px solid var(--color-primary);
     padding: 8px;
     color: var(--color-primary);
+}
+
+section {
+  
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.undraw {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.section-title-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+.undraw-title {
+ 
+    width: 550px;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 15px;
+    color: var(--color-four);
+ 
+}
+
+.undraw-sub {
+ 
+    width: 550px;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--color-three);
+}
+
+.elements-position {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.info-card {
+    margin-bottom: 10px;
+}
+
+
+.info-card-title {
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--color-four);
+}
+
+.info-card-sub {
+    width: 280px;
+    color: var(--color-five);
+}
+
+
+
+.mobilie-login {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+ 
+   
+}
+
+.button-undraw-mention a {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 26px;
+    background-color: var(--color-primary);
+    padding: 17px;
+    text-decoration: none;
+    color: #fff;
 }
