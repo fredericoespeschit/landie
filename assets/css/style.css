@@ -218,14 +218,16 @@ section {
 }
 
 #princing-background {
-    
-    height: 90vh;
-    background: #E7ECFF;
-    mix-blend-mode: normal;
+    height: 730px;
+   
+ 
+    background:#f3f5ff;
+margin-top: -90px;
 
 }
 
 .pricing {
+    
     width: 100%;
 display: flex;
 align-items: center;
@@ -241,6 +243,7 @@ flex-direction: column;
     font-weight: 600;
     line-height: 48px;
     margin-bottom: 10px;
+   
 }
 
 .princing-sub {
@@ -290,4 +293,56 @@ flex-direction: column;
     color: #fff;
     font-weight: 300;
  
+}
+
+footer {
+    margin-top: -170px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7ecff;
+}
+
+
+
+.yourcompany {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer {
+    width: 100%;
+   
+}
+
+.menu-social-media {
+   border-top: 2px solid #e0e5e9;
+   margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+
+}
+.menu-social-media a {
+    margin-right: 10px;
+}
+.menu-footer {
+    margin-top: 20px;
+}
+.menu-footer ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu-footer a {
+    text-decoration: none;
+    color: #929ECC;
+    margin-right: 30px;
+}
+
+.media-social {
+    margin-top: 20px;
 }
